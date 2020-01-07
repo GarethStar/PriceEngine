@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ConsoleApp1.Model;
+using ConsoleApp1.Service.QuotationSystem;
 
 namespace ConsoleApp1
 {
@@ -28,7 +27,13 @@ namespace ConsoleApp1
             string insurer = "";
             string error = "";
 
-            var priceEngine = new PriceEngine();
+            List<IQuoteInterface> quoteInterfaces = new List<IQuoteInterface> {
+                new QuotationSystem1("http://quote-system-1.com", "1235"),
+                new QuotationSystem2("http://quote-system-2.com", "1235"),
+                new QuotationSystem3("http://quote-system-3.com", "1235")
+            };
+
+            var priceEngine = new PriceEngine(quoteInterfaces);
             var price = priceEngine.GetPrice(request, out tax, out insurer, out error);
 
             if (price == -1)
