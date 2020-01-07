@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{7A8FD89A-B378-4A9E-ACFD-BD0AE958130B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Service/QuotationSystem/QuotationSytem2.cs" Line="32" Column="36" IsPinned="True" />
+      <File FileName="PriceEngine.cs" />
+      <File FileName="Model/RiskData.cs" />
+      <File FileName="Model/PriceRequest.cs" />
+      <File FileName="Program.cs" Line="36" Column="46" />
+      <File FileName="Service/QuotationSystem/QuotationSytem3.cs" />
+      <File FileName="App.config" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConsoleApp1" expanded="True" selected="True">
+            <Node name="ConsoleApp1" expanded="True">
+              <Node name="Service" expanded="True">
+                <Node name="QuotationSystem" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ConsoleApp1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
